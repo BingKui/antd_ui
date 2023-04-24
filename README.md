@@ -1,39 +1,89 @@
-<!--
-This README describes the package. If you publish this package to pub.dev,
-this README's contents appear on the landing page for your package.
+# Antd UI
 
-For information about how to write a good package README, see the guide for
-[writing package pages](https://dart.dev/guides/libraries/writing-package-pages).
+A UI Component Library for building Desktop Application base on Antd Design. 🎉（一个基于 Antd Design 用来开发桌面应用的 UI 库。）
 
-For general information about developing packages, see the Dart guide for
-[creating packages](https://dart.dev/guides/libraries/create-library-packages)
-and the Flutter guide for
-[developing packages and plugins](https://flutter.dev/developing-packages).
--->
+## Component List 组件列表
 
-TODO: Put a short description of the package here that helps potential users
-know whether this package might be useful for them.
+### General 通用
 
-## Features
+- ✅ Button 按钮
+- ✅ Icon 图标
+- ✅ Typography 排版
 
-TODO: List what your package can do. Maybe include images, gifs, or videos.
+### Layout 布局
 
-## Getting started
+- ✅ Divder 分割线
+- ✅ Grid 栅格
+- ⬜️ Layout 布局
+- ✅ Space 间距
 
-TODO: List prerequisites and provide or point to information on how to
-start using the package.
+### Navigation 导航
 
-## Usage
+- ⬜️ Anchor 锚点
+- ⬜️ Breadcrumb 面包屑
+- ⬜️ Dropdown 下拉菜单
+- ⬜️ Menu 菜单导航
+- ⬜️ Pagination 分页
+- ⬜️ Steps 步骤条
 
-TODO: Include short and useful examples for package users. Add longer examples
-to `/example` folder.
+### Data Entry 数据录入
 
-```dart
-const like = 'sample';
-```
+- ⬜️ AutoComplete 自动完成
+- ⬜️ Cascader 级联选择
+- ⬜️ Checkbox 多选框
+- ⬜️ DatePicker 日期选择框
+- ⬜️ Form 表单
+- ⬜️ Input 输入框
+- ⬜️ InputNumber 数字输入框
+- ⬜️ Mentions 提及
+- ⬜️ Radio 单选框
+- ⬜️ Rate 评分
+- ⬜️ Select 选择器
+- ⬜️ Slider 滑动输入条
+- ⬜️ Switch 开关
+- ⬜️ TimePicker 时间选择框
+- ⬜️ Transfer 穿梭框
+- ⬜️ TreeSelect 数选择
+- ⬜️ Upload 上传
+  
+### Data Show 数据展示
 
-## Additional information
+- ⬜️ Avatar 头像
+- ⬜️ Badge 徽标数
+- ⬜️ Calendar 日历
+- ✅ Card 卡片
+- ⬜️ Carousel 走马灯
+- ⬜️ Collapse 折叠面板
+- ⬜️ Empty 空状态
+- ⬜️ Image 图片
+- ⬜️ List 列表
+- ⬜️ Popover 气泡卡片
+- ⬜️ QRCode 二维码
+- ⬜️ Segmented 分段控制器
+- ⬜️ Statistic 统计数值
+- ⬜️ Table 表格
+- ⬜️ Tabs 标签页
+- ⬜️ Tag 标签
+- ⬜️ Timeline 时间轴
+- ⬜️ Tour 漫游式引导
+- ⬜️ Tree 树形控件
 
-TODO: Tell users more about the package: where to find more information, how to
-contribute to the package, how to file issues, what response they can expect
-from the package authors, and more.
+### Feedback 反馈
+
+- ✅ Alert 警告提示
+- ⬜️ Drawer 抽屉
+- ⬜️ Message 全局提示
+- ⬜️ Modal 对话框
+- ⬜️ Notification 通知提醒框
+- ⬜️ Progress 进度条
+- ⬜️ Result 结果
+- ⬜️ Skeleton 骨架屏
+- ⬜️ Spin 加载中
+
+### Other 其他
+
+- ⬜️ Affix 固钉
+- ⬜️ App 包裹组件
+- ⬜️ ConfigProvider 全局化配置
+- ⬜️ FloatButton 悬浮按钮
+- ⬜️ Watermark 水印

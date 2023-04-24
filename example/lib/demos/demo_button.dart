@@ -25,24 +25,27 @@ class _DemoButtonState extends State<DemoButton> {
         children: const [
           AntdCard(
             title: '按钮类型',
-            content: AntdSpace(children: [
-              AntdButton(
-                text: 'Primary Button',
-                type: AntdButtonType.primary,
-              ),
-              AntdButton(
-                text: 'Normal Button',
-                type: AntdButtonType.normal,
-              ),
-              AntdButton(
-                text: 'Text Button',
-                type: AntdButtonType.text,
-              ),
-              AntdButton(
-                text: 'Link Button',
-                type: AntdButtonType.link,
-              ),
-            ]),
+            content: AntdSpace(
+              wrap: true,
+              children: [
+                AntdButton(
+                  text: 'Primary Button',
+                  type: AntdButtonType.primary,
+                ),
+                AntdButton(
+                  text: 'Normal Button',
+                  type: AntdButtonType.normal,
+                ),
+                AntdButton(
+                  text: 'Text Button',
+                  type: AntdButtonType.text,
+                ),
+                AntdButton(
+                  text: 'Link Button',
+                  type: AntdButtonType.link,
+                ),
+              ],
+            ),
           ),
           AntdCard(
             title: '不同样式',

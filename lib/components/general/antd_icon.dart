@@ -27,16 +27,19 @@ class AntdIcon extends StatefulWidget {
 class _AntdIconState extends State<AntdIcon> {
   bool isHover = false;
   Widget iconWidget() {
-    return RichText(
-      overflow: TextOverflow.visible,
-      text: TextSpan(
-        text: String.fromCharCode(widget.icon!.codePoint),
-        style: TextStyle(
-          inherit: false,
-          color: isHover ? widget.hoverColor : widget.color,
-          fontSize: widget.size,
-          fontFamily: widget.icon!.fontFamily,
-          package: 'antd_ui',
+    return InkWell(
+      onTap: widget.onClick,
+      child: RichText(
+        overflow: TextOverflow.visible,
+        text: TextSpan(
+          text: String.fromCharCode(widget.icon!.codePoint),
+          style: TextStyle(
+            inherit: false,
+            color: isHover ? widget.hoverColor : widget.color,
+            fontSize: widget.size,
+            fontFamily: widget.icon!.fontFamily,
+            package: 'antd_ui',
+          ),
         ),
       ),
     );

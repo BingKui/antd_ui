@@ -4,7 +4,7 @@ version: 0.0.1
 homepage: https://github.com/BingKui/antd_ui
 
 environment:
-  sdk: '>=3.0.0-417.0.dev <4.0.0'
+  sdk: ">=3.0.0-417.0.dev <4.0.0"
   flutter: ">=1.17.0"
 
 dependencies:
@@ -12,6 +12,8 @@ dependencies:
     sdk: flutter
   # URL 链接处理
   url_launcher: 6.1.10
+  # 动画库
+  flutter_animate: 4.1.1+1
 
 dev_dependencies:
   flutter_test:
@@ -20,7 +22,6 @@ dev_dependencies:
   flutter_svg: 2.0.5
 
 flutter:
-
   # To add assets to your package, add an assets section, like this:
   # assets:
   #   - images/a_dot_burr.jpeg

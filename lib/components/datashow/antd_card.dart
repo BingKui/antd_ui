@@ -161,7 +161,7 @@ class _AntdCardState extends State<AntdCard> {
     Size size = MediaQuery.of(context).size;
     // print('haveShadow && isHover -> ${haveShadow && isHover}');
     double contentWidth = widget.width != null ? widget.width! : size.width;
-    print('父宽度 -> $contentWidth');
+    // print('父宽度 -> $contentWidth');
     return MediaQuery(
       data: MediaQueryData(size: Size(contentWidth, size.height)),
       child: Semantics(
@@ -251,7 +251,7 @@ class AntdCardMeta extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     Size size = MediaQuery.of(context).size;
-    print('子节点宽度 -> ${size.width}');
+    // print('子节点宽度 -> ${size.width}');
     // return Text('Meta');
     return SizedBox(
       // decoration: style,

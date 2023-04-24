@@ -95,3 +95,11 @@ enum AntdCardSize {
   normal,
   small,
 }
+
+// 主题类型
+enum AntdThemeType {
+  success,
+  info,
+  warning,
+  error,
+}

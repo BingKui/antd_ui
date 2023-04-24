@@ -17,15 +17,17 @@ class MenuItem extends StatelessWidget {
   Widget build(BuildContext context) {
     Size size = MediaQuery.of(context).size;
     return Container(
-      width: size.width,
+      width: size.width / 2,
       margin: iGapBox,
       child: AntdCard(
         title: title,
         hoverable: true,
+        size: AntdCardSize.small,
         extra: AntdButton(
           onClick: press,
           text: btnText,
           type: AntdButtonType.primary,
+          size: AntdButtonSize.small,
         ),
         content: Text(
           desc,

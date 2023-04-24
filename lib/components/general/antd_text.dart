@@ -43,6 +43,9 @@ class AntdText extends StatelessWidget {
   /// 最多支持行数， 默认：9999
   final int? maxLines;
 
+  /// 自定义字体大小
+  final double? fontSize;
+
   /// 文本类型
   final AntdTypofraphyType? type;
 
@@ -66,6 +69,7 @@ class AntdText extends StatelessWidget {
     this.type,
     this.onClick,
     this.maxLines = 9999,
+    this.fontSize,
   });
 
   @override
@@ -81,7 +85,7 @@ class AntdText extends StatelessWidget {
         maxLines: maxLines ?? 999999,
         textAlign: TextAlign.left,
         style: TextStyle(
-          fontSize: iFontSize,
+          fontSize: fontSize ?? iFontSize,
           fontWeight: getFontWeight(strong),
           color: getTextColor(type, disabled, mark),
           fontStyle: getFontStyle(italic),
@@ -122,7 +126,7 @@ class AntdText extends StatelessWidget {
         maxLines: maxLines ?? 999999,
         textAlign: TextAlign.left,
         style: TextStyle(
-          fontSize: iFontSize,
+          fontSize: fontSize ?? iFontSize,
           fontWeight: getFontWeight(strong),
           color: getTextColor(type, disabled, mark),
           fontStyle: getFontStyle(italic),
