@@ -33,7 +33,7 @@ class AntdSider extends StatelessWidget {
   List<Widget> buildChildren() {
     List<Widget> list = <Widget>[];
     list.add(child);
-    if (collapsible!) list.add(Text('关闭'));
+    if (collapsible!) list.add(const Text('关闭'));
     return list;
   }
 

@@ -4,10 +4,10 @@ class AntdBadge extends StatefulWidget {
   const AntdBadge({super.key});
 
   @override
-  State<AntdBadge> createState() => Antd_BadgeState();
+  State<AntdBadge> createState() => AntdBadgeState();
 }
 
-class Antd_BadgeState extends State<AntdBadge> {
+class AntdBadgeState extends State<AntdBadge> {
   @override
   Widget build(BuildContext context) {
     return const Placeholder();

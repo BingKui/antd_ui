@@ -6,7 +6,7 @@ import 'package:flutter/material.dart';
 
 class AntdLayout extends StatelessWidget {
   // 定义 全局key
-  static final GlobalKey _key = GlobalKey();
+  // static final GlobalKey _key = GlobalKey();
   final AntdSider? sider;
   final AntdHeader? header;
   final AntdFooter? footer;
@@ -22,7 +22,7 @@ class AntdLayout extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     Size size = MediaQuery.of(context).size;
-    return Container(
+    return SizedBox(
       height: size.height,
       width: size.width,
       child: Row(

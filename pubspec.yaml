@@ -11,15 +11,16 @@ dependencies:
   flutter:
     sdk: flutter
   # URL 链接处理
-  url_launcher: 6.1.10
+  url_launcher: ^6.1.10
   # 动画库
-  flutter_animate: 4.1.1+1
+  flutter_animate: ^4.1.1+1
+  # svg 支持
+  flutter_svg: ^2.0.5
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
   flutter_lints: ^2.0.0
-  flutter_svg: 2.0.5
 
 flutter:
   # To add assets to your package, add an assets section, like this:
