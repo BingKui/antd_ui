@@ -1,5 +1,5 @@
 import 'package:antd_ui/antd_ui.dart';
-import 'package:antd_ui/constants.dart';
+import 'package:antd_ui/constants/constants.dart';
 import 'package:antd_ui/utils/text.dart';
 import 'package:flutter/material.dart';
 

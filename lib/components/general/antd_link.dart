@@ -1,4 +1,4 @@
-import 'package:antd_ui/constants.dart';
+import 'package:antd_ui/constants/constants.dart';
 import 'package:flutter/material.dart';
 import 'package:url_launcher/url_launcher.dart';
 

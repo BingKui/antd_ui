@@ -1,4 +1,4 @@
-import 'package:antd_ui/constants.dart';
+import 'package:antd_ui/constants/constants.dart';
 import 'package:flutter/material.dart';
 
 /// 通过类型返回对应的颜色

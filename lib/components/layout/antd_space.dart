@@ -1,5 +1,5 @@
-import 'package:antd_ui/constants.dart';
-import 'package:antd_ui/enums.dart';
+import 'package:antd_ui/constants/constants.dart';
+import 'package:antd_ui/constants/enums.dart';
 import 'package:flutter/material.dart';
 
 class AntdSpace extends StatelessWidget {
